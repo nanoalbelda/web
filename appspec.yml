@@ -7,10 +7,7 @@ files:
     destination: /home/ec2-user/
 
 hooks:
-  ApplicationStop:
-    - location: stop_process.sh
-      timeout: 180
-      runas: root
+
   ApplicationStart:
     - location: start_process.sh
       timeout: 180
