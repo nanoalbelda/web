@@ -3,7 +3,7 @@ version: 0.0
 os: linux
 
 files:
-  - source: basico-0.0.1-SNAPSHOT.jar
+  - source: backend.jar
     destination: /home/ec2-user/
 
 hooks:
